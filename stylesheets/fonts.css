@@ -10,8 +10,8 @@
 @font-face {
   font-family: "Geometria";
   src: url("../fonts/Geometria-ThinItalic.ttf");
-  src: local("../fonts/Geometria ThinItalic"), local("Geometria-ThinItalic"),
-    url("Geometria-ThinItalic.ttf") format("truetype");
+  src: local("Geometria ThinItalic"), local("Geometria-ThinItalic"),
+    url("../fonts/Geometria-ThinItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
 }
