@@ -97,9 +97,7 @@ h1 {
 .spring {
   position: relative;
   display: block;
-  margin: auto;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 0 auto;
 }
 
 .nav {
