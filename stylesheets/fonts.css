@@ -21,6 +21,13 @@
 
 @font-face {
   font-family: "Geometria";
+  src: url("../fonts/GeometriaThin/GeometriaBold.woff") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Geometria";
   src: url("../fonts/GeometriaThin/GeometriaBoldItalic.woff") format("truetype");
   font-style: italic;
   font-weight: 700;
