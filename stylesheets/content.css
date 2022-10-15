@@ -111,13 +111,11 @@ h1 {
   position: relative;
   display: block;
   width: 243px;
-  font-family: GeometriaRegular;
   font-size: 25px;
   margin: 44px 0px 0px 50px;
 }
 
 .first-letter {
-  font-family: GeometriaMediumItalic;
   font-size: 30px;
 }
 
@@ -128,7 +126,6 @@ h1 {
 .year {
   position: relative;
   display: block;
-  font-family: GeometriaMedium;
   font-size: 70px;
   margin: -72px 0px 0px 1093px;
 }
