@@ -1,172 +1,143 @@
 @font-face {
-  font-family: "GeometriaThin";
-  src: url("../fonts/GeometriaThin/GeometriaThin.woff") format("woff");
-  font-style: normal;
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-Thin.ttf");
+  src: local("Geometria Thin"), local("Geometria-Thin"),
+    url("../fonts/Geometria-Thin.ttf") format("truetype");
   font-weight: 100;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "GeometriaExtraLight";
-  src: url("../fonts/GeometriaExtraLight/GeometriaExtraLight.woff")
-    format("woff");
-  font-style: normal;
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-ThinItalic.ttf");
+  src: local("../fonts/Geometria ThinItalic"), local("Geometria-ThinItalic"),
+    url("Geometria-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-ExtraLight.ttf");
+  src: local("Geometria ExtraLight"), local("Geometria-ExtraLight"),
+    url("../fonts/Geometria-ExtraLight.ttf") format("truetype");
   font-weight: 200;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "GeometriaLight";
-  src: url("../fonts/GeometriaLight/GeometriaLight.eot");
-  src: url("../fonts/GeometriaLight/GeometriaLight.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/GeometriaLight/GeometriaLight.woff") format("woff"),
-    url("../fonts/GeometriaLight/GeometriaLight.ttf") format("truetype");
-  font-style: normal;
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-ExtraLightItalic.ttf");
+  src: local("Geometria ExtraLightItalic"), local("Geometria-ExtraLightItalic"),
+    url("../fonts/Geometria-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-Light.ttf");
+  src: local("Geometria Light"), local("Geometria-Light"),
+    url("../fonts/Geometria-Light.ttf") format("truetype");
   font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "GeometriaRegular";
-  src: url("../fonts/GeometriaRegular/GeometriaRegular.eot");
-  src: url("../fonts/GeometriaRegular/GeometriaRegular.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/GeometriaRegular/GeometriaRegular.woff") format("woff"),
-    url("../fonts/GeometriaRegular/GeometriaRegular.ttf") format("truetype");
-  font-style: normal;
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-LightItalic.ttf");
+  src: local("Geometria LightItalic"), local("Geometria-LightItalic"),
+    url("../fonts/Geometria-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-Regular.ttf");
+  src: local("Geometria"),
+    url("../fonts/Geometria-Regular.ttf") format("truetype");
   font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "GeometriaMedium";
-  src: url("../fonts/GeometriaMedium/GeometriaMedium.eot");
-  src: url("../fonts/GeometriaMedium/GeometriaMedium.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/GeometriaMedium/GeometriaMedium.woff") format("woff"),
-    url("../fonts/GeometriaMedium/GeometriaMedium.ttf") format("truetype");
-  font-style: normal;
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-RegularItalic.ttf");
+  src: local("Geometria Italic"), local("Geometria-Italic"),
+    url("../fonts/Geometria-RegularItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-Medium.ttf");
+  src: local("Geometria Medium"), local("Geometria-Medium"),
+    url("../fonts/Geometria-Medium.ttf") format("truetype");
   font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "GeometriaBold";
-  src: url("../fonts/GeometriaBold/GeometriaBold.woff") format("woff");
-  font-style: normal;
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-MediumItalic.ttf");
+  src: local("Geometria MediumItalic"), local("Geometria-MediumItalic"),
+    url("../fonts/Geometria-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-Bold.ttf");
+  src: local("Geometria Bold"), local("Geometria-Bold"),
+    url("../fonts/Geometria-Bold.ttf") format("truetype");
   font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "GeometriaExtraBold";
-  src: url("../fonts/GeometriaExtraBold/GeometriaExtraBold.woff") format("woff");
-  font-style: normal;
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-BoldItalic.ttf");
+  src: local("Geometria BoldItalic"), local("Geometria-BoldItalic"),
+    url("../fonts/Geometria-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("Geometria-ExtraBold.ttf");
+  src: local("../fonts/Geometria ExtraBold"), local("Geometria-ExtraBold"),
+    url("../fonts/Geometria-ExtraBold.ttf") format("truetype");
   font-weight: 800;
-}
-
-@font-face {
-  font-family: "GeometriaThinItalic";
-  src: url("../fonts/GeometriaThinItalic/GeometriaThinItalic.eot");
-  src: url("../fonts/GeometriaThinItalic/GeometriaThinItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/GeometriaThinItalic/GeometriaThinItalic.woff") format("woff"),
-    url("../fonts/GeometriaThinItalic/GeometriaThinItalic.ttf")
-      format("truetype");
-  font-style: italic;
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: "GeometriaExtraLightItalic";
-  src: url("../fonts/GeometriaExtraLightItalic/GeometriaExtraLightItalic.eot");
-  src: url("../fonts/GeometriaExtraLightItalic/GeometriaExtraLightItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/GeometriaExtraLightItalic/GeometriaExtraLightItalic.woff")
-      format("woff"),
-    url("../fonts/GeometriaExtraLightItalic/GeometriaExtraLightItalic.ttf")
-      format("truetype");
-  font-style: italic;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "GeometriaLightItalic";
-  src: url("../fonts/GeometriaLightItalic/GeometriaLightItalic.eot");
-  src: url("../fonts/GeometriaLightItalic/GeometriaLightItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/GeometriaLightItalic/GeometriaLightItalic.woff")
-      format("woff"),
-    url("../fonts/GeometriaLightItalic/GeometriaLightItalic.ttf")
-      format("truetype");
-  font-style: italic;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "GeometriaItalic";
-  src: url("../fonts/GeometriaItalic/GeometriaItalic.eot");
-  src: url("../fonts/GeometriaItalic/GeometriaItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/GeometriaItalic/GeometriaItalic.woff") format("woff"),
-    url("../fonts/GeometriaItalic/GeometriaItalic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "GeometriaMediumItalic";
-  src: url("../fonts/GeometriaMediumItalic/GeometriaMediumItalic.eot");
-  src: url("../fonts/GeometriaMediumItalic/GeometriaMediumItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/GeometriaMediumItalic/GeometriaMediumItalic.woff")
-      format("woff"),
-    url("../fonts/GeometriaMediumItalic/GeometriaMediumItalic.ttf")
-      format("truetype");
-  font-style: italic;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "GeometriaBoldItalic";
-  src: url("../fonts/GeometriaBoldItalic/GeometriaBoldItalic.eot");
-  src: url("../fonts/GeometriaBoldItalic/GeometriaBoldItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/GeometriaBoldItalic/GeometriaBoldItalic.woff") format("woff"),
-    url("../fonts/GeometriaBoldItalic/GeometriaBoldItalic.ttf")
-      format("truetype");
-  font-style: italic;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "GeometriaExtraBoldItalic";
-  src: url("../fonts/GeometriaExtraBoldItalic/GeometriaExtraBoldItalic.eot");
-  src: url("../fonts/GeometriaExtraBoldItalic/GeometriaExtraBoldItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/GeometriaExtraBoldItalic/GeometriaExtraBoldItalic.woff")
-      format("woff"),
-    url("../fonts/GeometriaExtraBoldItalic/GeometriaExtraBoldItalic.ttf")
-      format("truetype");
-  font-style: italic;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "GeometriaHeavy";
-  src: url("../fonts/GeometriaHeavy/GeometriaHeavy.eot");
-  src: url("../fonts/GeometriaHeavy/GeometriaHeavy.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/GeometriaHeavy/GeometriaHeavy.woff") format("woff"),
-    url("../fonts/GeometriaHeavy/GeometriaHeavy.ttf") format("truetype");
   font-style: normal;
-  font-weight: 900;
 }
 
 @font-face {
-  font-family: "GeometriaHeavyItalic";
-  src: url("../fonts/GeometriaHeavyItalic/GeometriaHeavyItalic.eot");
-  src: url("../fonts/GeometriaHeavyItalic/GeometriaHeavyItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/GeometriaHeavyItalic/GeometriaHeavyItalic.woff")
-      format("woff"),
-    url("../fonts/GeometriaHeavyItalic/GeometriaHeavyItalic.ttf")
-      format("truetype");
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-ExtraBoldItalic.ttf");
+  src: local("Geometria ExtraBoldItalic"), local("Geometria-ExtraBoldItalic"),
+    url("../fonts/Geometria-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
   font-style: italic;
-  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-Heavy.ttf");
+  src: local("Geometria Heavy"), local("Geometria-Heavy"),
+    url("../fonts/Geometria-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-HeavyItalic.ttf");
+  src: local("Geometria HeavyItalic"), local("Geometria-HeavyItalic"),
+    url("../fonts/Geometria-HeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
 }
