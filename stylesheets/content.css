@@ -11,10 +11,10 @@ body {
   display: flex;
   overflow-x: hidden;
   font-weight: 200;
-  /* background: url("../img/fon1.png");
+  background: url("../img/fon.svg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: top; */
+  background-position: top;
 }
 
 h1 {
