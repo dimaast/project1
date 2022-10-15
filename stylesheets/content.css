@@ -2,6 +2,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 1280px;
+  height: 8773px;
   margin: 0px;
   padding: 0px;
   background-color: #ffffff;
@@ -12,7 +13,7 @@ body {
   overflow-x: hidden;
   font-weight: 200;
   background: url("../img/fon.svg");
-  background-size: 100%;
+  background-size: 1280px;
   background-repeat: no-repeat;
   background-position: top;
 }
