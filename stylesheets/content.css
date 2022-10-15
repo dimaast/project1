@@ -1,0 +1,164 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1280px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Geometria;
+  font-size: 25px;
+  display: flex;
+  overflow-x: hidden;
+  /* background: url("../img/fon1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top; */
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 187px;
+}
+
+#hletterG {
+  position: relative;
+  display: block;
+  width: 144px;
+  height: 235px;
+  margin: 303px 0px 0px 100px;
+  transform: rotate(-56deg);
+}
+
+#hlettere {
+  position: relative;
+  display: block;
+  width: 120px;
+  height: 235px;
+  margin: -360px 0px 0px 230px;
+  transform: rotate(-42deg);
+}
+
+#hlettero {
+  position: relative;
+  display: block;
+  margin: 0px 0px 0px 0px;
+  transform: rotate(deg);
+}
+
+#hletterm {
+  position: relative;
+  display: block;
+  margin: 0px 0px 0px 0px;
+  transform: rotate(deg);
+}
+
+#hlettere2 {
+  position: relative;
+  display: block;
+  margin: 0px 0px 0px 0px;
+  transform: rotate(deg);
+}
+
+#hlettert {
+  position: relative;
+  display: block;
+  margin: 0px 0px 0px 0px;
+  transform: rotate(deg);
+}
+
+#hletterr {
+  position: relative;
+  display: block;
+  margin: 0px 0px 0px 0px;
+  transform: rotate(deg);
+}
+
+#hletteri {
+  position: relative;
+  display: block;
+  margin: 0px 0px 0px 0px;
+  transform: rotate(deg);
+}
+
+#hlettera {
+  position: relative;
+  display: block;
+  margin: 0px 0px 0px 0px;
+  transform: rotate(deg);
+}
+
+.header {
+  margin-right: 50px;
+  margin-top: 36px;
+  margin-left: 50px;
+}
+
+.spring {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.authors {
+  position: relative;
+  display: block;
+  width: 243px;
+  font-family: GeometriaRegular;
+  font-size: 25px;
+  margin: 44px 0px 0px 50px;
+}
+
+.first-letter {
+  font-family: GeometriaMediumItalic;
+  font-size: 30px;
+}
+
+.letterg {
+  margin: 0px -4px 0px 0px;
+}
+
+.year {
+  position: relative;
+  display: block;
+  font-family: GeometriaMedium;
+  font-size: 70px;
+  margin: -72px 0px 0px 1093px;
+}
+
+.cover {
+  position: relative;
+  display: block;
+  width: 1013px;
+  height: 1013px;
+  margin: 230px 0px 0px 134px;
+  background: url("../img/cover.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#covertext1 {
+  position: absolute;
+  display: block;
+  color: #fff;
+  font-size: 19px;
+  text-transform: uppercase;
+  margin: 558px 0px 0px 342px;
+}
+
+#covertext2 {
+  position: absolute;
+  display: block;
+  color: #fff;
+  font-size: 66px;
+  text-transform: uppercase;
+  margin: 726px 0px 0px 289px;
+}
