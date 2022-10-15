@@ -19,13 +19,14 @@ body {
 }
 
 h1 {
-  font-family: "Geometria", sans-serif;
   text-transform: uppercase;
   font-size: 187px;
-  font-weight: 700;
 }
 
 #hletterG {
+  font-family: "Geometria", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   position: relative;
   display: block;
   width: 144px;
