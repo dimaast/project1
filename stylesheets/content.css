@@ -91,9 +91,7 @@ h1 {
 }
 
 .header {
-  margin-right: 50px;
-  margin-top: 36px;
-  margin-left: 50px;
+  margin: 36px auto;
 }
 
 .spring {
