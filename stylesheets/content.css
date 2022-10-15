@@ -43,10 +43,10 @@ h1 {
 #hlettero {
   position: relative;
   display: block;
-  width: ;
+  width: 156px;
   height: 235px;
-  margin: 0px 0px 0px 0px;
-  transform: rotate(deg);
+  margin: -317px 0px 0px 262px;
+  transform: rotate(-25deg);
 }
 
 #hletterm {
