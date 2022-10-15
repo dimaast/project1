@@ -27,7 +27,7 @@ h1 {
   display: block;
   width: 144px;
   height: 235px;
-  margin: 210px 0px 0px 54px;
+  margin: 234px 0px 0px 47px;
   transform: rotate(-56deg);
 }
 
@@ -36,7 +36,7 @@ h1 {
   display: block;
   width: 120px;
   height: 235px;
-  margin: -346px 0px 0px 166px;
+  margin: -346px 0px 0px 156px;
   transform: rotate(-42deg);
 }
 
@@ -107,10 +107,10 @@ h1 {
 .authors {
   position: relative;
   display: block;
-  width: 245px;
+  width: 265px;
   font-size: 25px;
   line-height: 31px;
-  margin: 42px 0px 0px 29px;
+  margin: 44px 0px 0px 0px;
 }
 
 .first-letter {
@@ -128,7 +128,7 @@ h1 {
   position: relative;
   display: block;
   font-size: 70px;
-  margin: -68px 0px 0px 1028px;
+  margin: -64px 0px 0px 1011px;
 }
 
 .cover {
